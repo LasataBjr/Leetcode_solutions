@@ -24,8 +24,6 @@ If you don’t provide {}, then:
 reduce will use the first item of the array as the initial result, which will break your logic
  — because you're expecting result to be an object, not the first array item.
  */
-
-
 /**
  * [1,2,3].groupBy(String) // {"1":[1],"2":[2],"3":[3]}
  */
