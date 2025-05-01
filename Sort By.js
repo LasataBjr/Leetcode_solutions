@@ -18,9 +18,6 @@ If result is:
 > 0: b comes first
 0: order stays the same */
 
-
-
-
 /* By default, arr.sort() in JavaScript converts every element to a string, and then compares the strings in Unicode order, not numerical order.
 const arr = [5, 10, 1, 100];
 console.log(arr.sort()); // [1, 10, 100, 5] ❌ */
