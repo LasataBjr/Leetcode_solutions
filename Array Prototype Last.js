@@ -13,6 +13,10 @@ Array.prototype.last = function() {
 };
 
 // prototype allows you to add new properties and methods to arrays. prototype is a property available with all JavaScript objects.
+// Array.prototype is the object where all standard array methods are defined. 
+// This means any method you call on an array—like .push(), .map(), .filter()—comes from Array.prototype.
+
+
 //Array.prototype.name = value
 /**
  * const arr = [1, 2, 3];
